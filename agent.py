@@ -17,7 +17,7 @@ PURPLE = '\033[38;5;90m'
 RESET = '\033[0m'
 COLOR = YELLOW
 
-endpoint_url = "http://ice193:6300"
+endpoint_url = "CLIENT_URL"
 client = Client(endpoint_url, timeout = 60)
 
 data_input = ""
